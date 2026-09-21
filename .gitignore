@@ -1,0 +1,19 @@
+# Python environment
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Label Studio runtime data (SQLite DB, media uploads, exports)
+.label-studio/
+export/
+
+# Local secrets / overrides
+.env
+
+# OS / editor
+Thumbs.db
+desktop.ini
+.DS_Store
+.vscode/
+.idea/
